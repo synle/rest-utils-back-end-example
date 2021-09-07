@@ -1,0 +1,25 @@
+{
+  "name": "rest-utils-back-end-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx ts-node src/App.ts",
+    "format": "npx prettier --write **/**/**/**/*.{ts,tsx,js,jsx,scss} *.{ts,md,js,json}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synle/rest-utils-back-end-example.git"
+  },
+  "author": "Sy Le",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/synle/rest-utils-back-end-example/issues"
+  },
+  "homepage": "https://github.com/synle/rest-utils-back-end-example#readme",
+  "dependencies": {
+    "@types/node": "^16.7.13",
+    "synle-rest-utils": "^1.0.0",
+    "typescript": "^4.4.2"
+  }
+}
