@@ -1,4 +1,4 @@
-import { UserApi } from "./UserApi";
+import { UserApi } from './UserApi';
 
 // sample do work routine
 (async () => {
@@ -11,8 +11,8 @@ import { UserApi } from "./UserApi";
 
     // userAgent is of AxiosResponse => should have all the data
     // like `data`, `headers`, etc...
-    console.log("SUCCESS: ", userAgent.data);
+    console.log('SUCCESS: ', userAgent.data);
   } catch (err) {
-    console.log("ERROR: ", err);
+    console.log('ERROR: ', err);
   }
 })();
